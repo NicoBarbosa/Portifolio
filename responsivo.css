@@ -1,0 +1,141 @@
+
+@media (max-width: 1279px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+
+@media (max-width: 1105px) {
+  .dados-usuario h2 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 1008px) {
+  .dados-usuario h2 {
+    font-size: 1.9rem;
+  }
+
+  .tecnologias-container ul li {
+    width: 64px;
+  }
+
+}
+
+
+@media (max-width: 975px) {
+  .top-element {
+    display: block;
+  }
+
+  aside {
+    max-width: 100%;
+    margin-bottom: 25px;
+    padding: 0 2%;
+  }
+
+  .usuario-links-container,
+  .tecnologia-experiencia-educacao-container {
+    flex-direction: row;
+  }
+
+  .dados-usuario {
+    justify-content: center;
+    font-size: 2.2rem;
+    box-shadow: none;
+  }
+
+  .p-image {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .tecnologias , 
+  .experiencias, 
+  .educacao {
+    min-height: 250px;
+    max-height: 300px;
+  }
+
+  .experiencias ul li{
+    font-size: 1.6rem;
+  }
+
+  .experiencias ul span{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+@media (max-width: 530px) {
+  .dados-usuario h2 {
+    font-size: 2.5rem;
+  }
+
+  .dados-usuario p {
+    font-size: 2rem;
+  }
+
+  .usuario-links-container,
+  .tecnologia-experiencia-educacao-container {
+    flex-direction: column;
+  }
+
+  .links-redes, 
+  .tecnologias, 
+  .experiencias, 
+  .educacao {
+    max-width: none;
+  }
+
+  .tecnologias, 
+  .experiencias, 
+  .educacao {
+    justify-content: center;
+  }
+
+  .links-redes div a span{
+    font-size: 2rem;
+  }
+
+  .links-redes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links-redes div {
+    gap: 3rem;
+  }
+
+  .tecnologias h2,
+  .educacao h2,
+  .experiencias h2 {
+    font-size: 2.4rem;
+  }
+
+  .tecnologias-container ul li{
+    width: 108px;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+  }
+
+  .experiencias ul li,
+  .educacao ul li {
+    font-size: 2rem;
+  }
+
+  .experiencias ul span,
+  .educacao ul span{
+    font-size: 1.9rem;
+  }
+
+  .projetos {
+    grid-template-columns: 1fr;
+  }
+  
+}
