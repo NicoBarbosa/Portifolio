@@ -9,6 +9,20 @@ html {
   font-size: 61.5%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--body-bg-color);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: var(--bg-techs);
+}
+
 :root {
   --body-bg-color: #22212C;
   --text-color: #837E9F;
@@ -17,12 +31,11 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   font-family: 'Merriweather Sans', sans-serif;
   background-color: var(--body-bg-color);
   color: var(--text-color);
 }
+
 
 .top-element {
   display: flex;
@@ -261,6 +274,7 @@ main {
 
 .projetos-cards:hover{
   filter: brightness(1.1);
+  transform: translateY(-4px);
 }
 
 .cards-title{
@@ -275,6 +289,10 @@ main {
   font-size: 1.4rem;
   height: 50px;
   overflow: scroll;
+}
+
+.projetos-cards a p::-webkit-scrollbar {
+  display: none;
 }
 
 .cards-informacoes {
